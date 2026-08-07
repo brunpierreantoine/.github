@@ -1,0 +1,26 @@
+name: Feature proposal
+description: Propose a focused user or maintenance improvement
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What need or failure should this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: simple
+    attributes:
+      label: Simplest useful outcome
+      description: What is the smallest change that would solve the problem?
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance checks
+      description: How will we know it works?
+    validations:
+      required: true
